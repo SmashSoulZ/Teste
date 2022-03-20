@@ -18,5 +18,9 @@ public class Porto {
         navios = new ArrayList<>();
         
     }
-        
+        public void imprimirNavios(){
+        for (navio n: navios){
+           System.out.println("Navio- "+n.nome);
+        }
+    }
 }

@@ -3,11 +3,13 @@
 public class Tester {
         public static void main(String[] args){
 
-         navios lista = new navios("gh","gh",2);
+         System.out.println("teste");
          
-         navio n1= new navio(1,"weweds","dsadwa",1,39);
+         Porto lista= new Porto();
          
-        
+         navio n1= new navio("strin",2);
+         
+        lista.imprimirNavios();
        
   }
 }
