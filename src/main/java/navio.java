@@ -11,6 +11,7 @@ public class navio {
     public String matricula;
     public String nome;
     public float comprimento;
+    public int teste;
 
     public navio(String nome, float comprimento) {
         this.nome = nome;
