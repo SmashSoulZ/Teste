@@ -21,6 +21,9 @@ public class Porto {
         public void imprimirNavios(){
         for (navio n: navios){
            System.out.println("Navio- "+n.nome);
+            System.out.println("ola");
         }
     }
+        
+     
 }
